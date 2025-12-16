@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Houssam El Mouden – Desktop</title>
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box;font-family:Arial,Helvetica,sans-serif}
+    body{background:#eef7df;color:#000}
+
+    .container{max-width:1200px;margin:auto}
+
+    header{display:flex;align-items:center;justify-content:space-between;padding:20px}
+    header .left{display:flex;align-items:center;gap:15px}
+    .avatar{width:90px;height:90px;border-radius:50%;overflow:hidden;background:#ccc;display:flex;align-items:center;justify-content:center}
+.avatar img{width:100%;height:100%;object-fit:cover}
+    header h1{text-align:center;font-size:32px;font-weight:700}
+    header span{font-style:italic}
+
+    hr{border:1px solid #fff;margin:10px 0}
+
+    .about{text-align:center;padding:20px 80px}
+    .about h2{margin-bottom:10px}
+    .about p{line-height:1.7;font-size:16px}
+
+    .info{text-align:center;margin:20px 0}
+    .info p{margin:6px 0;font-size:15px}
+
+    .bottom{display:grid;grid-template-columns:1fr 1fr;gap:40px;padding:30px}
+
+    .skills h2,.projects h2{text-align:center;margin-bottom:15px}
+
+    .skills table{width:100%;border-collapse:collapse;text-align:center}
+    .skills th,.skills td{border:1px solid #000;padding:12px;font-size:14px}
+    .skills td{background:#dbeaf4}
+
+    .projects .cards{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+    .project{text-align:center}
+    .project img{width:100%;max-width:220px;height:140px;object-fit:cover;border-radius:8px}
+
+    footer{display:flex;justify-content:space-between;align-items:center;padding:15px 30px;font-size:14px}
+
+    @media(max-width:768px){
+      header{flex-direction:column;gap:10px}
+      header h1{font-size:24px}
+      .about{padding:20px}
+      .bottom{grid-template-columns:1fr}
+      footer{flex-direction:column;gap:8px;text-align:center}
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+<header>
+  <div class="left">
+    <div class="avatar">
+   <img src="im/Lionel.jpeg" alt="Avatar">
+</div>
+  </div>
+  <h1>Houssam<br>El Mouden</h1>
+  <span>"UI/UX Designer"</span>
+</header>
+
+<hr>
+
+<section class="about">
+  <h2>ABOUT ME:</h2>
+  <p>
+    “Étudiant passionné par le design digital, j’aime créer des interfaces modernes,
+    simples et pensées pour faciliter la vie de l’utilisateur. Je crois que chaque détail
+    compte et j’essaie toujours de concevoir des maquettes claires, harmonieuses et utiles,
+    tout en continuant à apprendre et à développer ma créativité”
+  </p>
+</section>
+
+<section class="info">
+  <h2>Information personnelles:</h2>
+  <p><b>NOM:</b> Houssam El Mouden</p>
+  <p><b>AGE:</b> 19</p>
+  <p><b>VILLE:</b> Tanger</p>
+  <p><b>EMAIL:</b> houssam@gmail.com</p>
+</section>
+
+<hr>
+
+<section class="bottom">
+
+  <div class="skills">
+    <h2>SKILLS:</h2>
+    <table>
+      <tr><th>FIGMA</th><th>HTML</th><th>JS</th></tr>
+      <tr><td>BEGINNER</td><td>INTERMEDIATE</td><td>INTERMEDIATE</td></tr>
+    </table>
+  </div>
+
+  <div class="projects">
+    <h2>PROJECTS:</h2>
+    <div class="cards">
+      <div class="project">
+        <b>WORLD COUNTRY</b><br>
+<img src="im/apps.25553.13510798886601710.8502e5b0-7533-4f9a-b63a-2fdfa4f0c483.jpeg" alt="World Country">
+      </div>
+      <div class="project">
+        <b>ONLINE LIBRARY</b><br>
+<img src="im/Bibliotheque-de-livres.webp" alt="Online Library">
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<hr>
+
+<footer>
+  <div>
+<a href="PUT-GITHUB-LINK-HERE">GitHub</a> ·
+<a href="PUT-INSTAGRAM-LINK-HERE">Instagram</a> ·
+<a href="PUT-LINKEDIN-LINK-HERE">LinkedIn</a></div>
+  <div>“Merci d’avoir visité mon portfolio 👋”</div>
+</footer>
+
+</div>
+</body>
+</html>
